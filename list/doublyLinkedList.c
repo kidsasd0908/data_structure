@@ -15,7 +15,7 @@ typedef struct LinkedList_{
 }LinkedList;   
 
 /************
- * 리스트 생성
+ * 리스트 생성 
  ************/
 LinkedList* makeList(){
     LinkedList* list = (LinkedList*) malloc(sizeof(LinkedList));
